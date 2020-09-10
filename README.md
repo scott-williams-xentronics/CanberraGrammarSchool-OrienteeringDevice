@@ -99,3 +99,14 @@ The input coming in from/out to an XBee module can be:
  On the current protoypes, though, I haven't been able to get data off.
  I'm not sure what's wrong and what is happening. It could be an issue with the I2C configuration, pull-up resistor values, or speed of the bus.
  This will take some time to resolve, too.
+ 
+ # Software
+ While I (Scott W - Xentronics) haven't done any of the software that interfaces to the devices, it's important that that is documented here too.
+ 
+ As well as this, for development and general use, I recommend RealTerm: https://sourceforge.net/projects/realterm/
+ 
+ I have used lots of Serial Terminals in my time.
+ Some are great for ASCII command terminal style use, some are great for graphing - and this one is great for using Hex and ASCII in the same system.
+ This system uses both a lot and interchangebly, so it's a good choice.
+ 
+ Note (this took me ages to work out): You may have to use "Run as Administrator" to stop an error from being raised in Windows 10
